@@ -1,0 +1,49 @@
+＊{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+container{
+    width: 200px;
+    position: relative;
+}
+
+.click{
+    background-color: blanchedalmond;
+}
+.click:hover{
+    background-color: chocolate;
+}
+.click,.links{
+    padding: 15px;
+    font-size: 1em;  
+    font-family: futura arial cursive;
+    border: none;
+    outline: none;
+    width:200px;
+    color:darkgreen;
+}
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.newlist {
+
+    transform: scaleY(1);
+
+}
+.links {
+    background-color: #283c63;
+}
+.links:hover {
+    background-color: #01579B;
+    transform: scale(1.1);
+}
